@@ -29,7 +29,8 @@ public class MergeSort {
     public static void main(String[] args) {
         int[] ints = { 0, 1, 3, 5, 4, 9, 6, 8, 7, 2 };
         int[] ints1 = { 9, 8, 7, 6, 5, 4, 3, 2, 1 };
-        System.out.println(Arrays.toString(sort(ints1)));
+        int[] ints2 = GenerateList.genRandomIntList(1000);
+        System.out.println(Arrays.toString(sort(ints2)));
 
     }
 
